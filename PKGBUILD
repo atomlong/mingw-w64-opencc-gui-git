@@ -8,6 +8,7 @@ arch=(any)
 url="http://code.google.com/p/opencc/"
 license=('Apache License 2.0')
 depends=('mingw-w64-opencc' 'mingw-w64-qt5-base')
+makedepends=('qt5-tools')
 optdepends=('mingw-w64-uchardet')
 source=('opencc-gui::git+https://github.com/BYVoid/opencc-gui.git')
 md5sums=('SKIP')
